@@ -24,4 +24,14 @@ This is a Web application to calculate you body mass index built with Spring Boo
 
 - ![finalEdit](./images/finalEdit.png)
 ---
+## How i do task2?
+- i wrote docker file.
+- i built it and run it.
+ ![build](./images/dockerBuild.png)
+ ![run](./images/dockerRun.png)
+###### now i have image in my local device and sometimes i will return to use it again so the best choice to make it public on **Docker Hub**
+- make account, make repos and push your images.
+ ![push](./images/dockerPush.png)
+- now it's available here [image](https://hub.docker.com/r/357812/mass-index-app/tags)
+
 
