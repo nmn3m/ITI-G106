@@ -33,5 +33,9 @@ This is a Web application to calculate you body mass index built with Spring Boo
 - make account, make repos and push your images.
  ![push](./images/dockerPush.png)
 - now it's available here [image](https://hub.docker.com/r/357812/mass-index-app/tags)
+--- 
+## Dealing with jenkins 
+- failure 
+![failure](./images/failure.png)
 
 
