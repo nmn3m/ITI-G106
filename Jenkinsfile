@@ -5,6 +5,9 @@ pipeline {
         dockerImage = '' 
     }
     agent{label "mn3m"}  
+	tools {
+		maven 'maven-3.8.6' 
+	}
     stages { 
         stage('checkout') { 
             steps { 
@@ -13,12 +16,12 @@ pipeline {
         } 
 		stage('building'){
 			steps {
-				sh './mvn clean package'
+				sh 'mvn clean package'
 			}
 		}
 		stage('Testing'){
 			steps {
-				sh './mvn test'
+				sh 'mvn test'
 			}
 			post {
 				always {
