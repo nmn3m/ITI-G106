@@ -4,7 +4,7 @@ pipeline {
         registryCredential = 'dockerhub_id' 
         dockerImage = '' 
     }
-    agent arch 
+    agent{label "mn3m"}  
     stages { 
         stage('checkout') { 
             steps { 
