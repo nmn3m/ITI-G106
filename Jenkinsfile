@@ -8,7 +8,7 @@ pipeline {
     stages { 
         stage('checkout') { 
             steps { 
-                git 'https://github.com/nmn3m/ITI-G106.git'
+                git url: 'https://github.com/nmn3m/ITI-G106.git', branch: 'master'
             }
         } 
 		stage('building'){
