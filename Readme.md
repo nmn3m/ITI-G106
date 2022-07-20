@@ -38,4 +38,7 @@ This is a Web application to calculate you body mass index built with Spring Boo
 - failure 
 ![failure](./images/failure.png)
 
-
+---
+## add security feature 
+- using _**trivy**_ to check vulnerability for docker image 
+- add _**org.owasp**_ in pom.xml
